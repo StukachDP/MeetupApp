@@ -1,0 +1,155 @@
+{
+  "login_form": {
+    "header": "Enter user details",
+    "login_label": "Login",
+    "password_label": "Password",
+    "submit": "To come in",
+    "log_input_message": "Enter login",
+    "pass_input_message": "Enter password",
+    "log_input_error_message": "Expected login",
+    "pass_input_error_message": "Expected password"
+  },
+  "nav_bar": {
+    "meetup_link": "Meetups",
+    "news_link": "News",
+    "signIn_button": "SignIn",
+    "logOut_button": "LogOut",
+    "current_language_button": "English",
+    "change_language_button": "Перевести на русский"
+  },
+  "meetups_page": {
+    "header": "Meetups",
+    "request_tab": "Topics",
+    "draft_tab": "On moderation",
+    "confirmed_tab": "Future",
+    "past_tab": "Past",
+    "create_meetup_button": "+ Create meetup",
+    "goCount_button": "Approved"
+  },
+  "choosen_meetup_page": {
+    "theme_header": "View topic",
+    "meetup_header": "View meetup",
+    "subject": "Subject",
+    "excerpt": "Excerpt",
+    "author": "Author",
+    "time_place": "Time and place",
+    "speakers": "Speakers",
+    "goCount": "Supported",
+    "delete_participant_button": "Disapprove a topic",
+    "add_participant_button": "Approve a topic",
+    "delete_meetup_participant_button": "Not participate",
+    "add_meetup_participant_button": "Participate",
+    "publication_button": "Publish",
+    "delete_button": "Delete",
+    "goBack_button": "Go back"
+  },
+  "edit_meetup_page": {
+    "header": "Meetup editing",
+    "image": "Image",
+    "subject": "Subject",
+    "excerpt": "Excerpt",
+    "speakers": "Speakers",
+    "place": "Place",
+    "start_date": "Start",
+    "finish_date": "Ending",
+    "edit_meetup_button": "Save",
+    "goBack_button": "Go back",
+    "subject_input_error_message": "Expected meetup subject",
+    "excerpt_input_error_message": "Expected meetup excerpt",
+    "author_input_error_message": {
+      "two_words_mistake": "You must enter at least two words",
+      "required": "Enter speaker data"
+    },
+    "date_input_error_message": {
+      "start": "A future meetup cannot start or end in the past.",
+      "finish": "Meetups can only be scheduled a year in advance",
+      "format": "Invalid date format"
+    }
+  },
+  "create_meetup_page": {
+    "header": "Meetup creating",
+    "help_content": "Fill in the required fields below in the most detailed way, this will give complete information about the upcoming event.",
+    "main_tab": "Required fields",
+    "extra_tab": "Extra fields",
+    "subject": "Subject",
+    "excerpt": "Excerpt",
+    "speakers": "Speakers",
+    "place": "Place",
+    "start_date": "Start",
+    "finish_date": "Ending",
+    "create_meetup_button": "Create",
+    "goBack_button": "Go back",
+    "goNext_button": "Next",
+    "subject_input_start_message": "Enter meetup subject",
+    "excerpt_input_start_message": "Enter meetup excerpt",
+    "author_input_start_message": "Enter speaker data",
+    "place_input_start_message": "Enter meetup place",
+    "start_date_input_start_message": "Enter date start meetup",
+    "finish_date_input_start_message": "Enter date finishing meetup"
+  },
+  "news_page": {
+    "header": "News",
+    "create_news_button": "+ Create news"
+  },
+  "choosen_news_page": {
+    "header": "View news",
+    "delete_news_button": "Delete News",
+    "edit_news_button": "Edit news",
+    "goBack_button": "Go back"
+  },
+  "edit_news_page": {
+    "header": "News editing",
+    "image": "Image",
+    "title": "Title",
+    "text": "Text",
+    "edit_news_button": "Edit news",
+    "goBack_button": "Go back",
+    "title_input_error_message": "Expected news title",
+    "text_input_error_message": "Expected news text"
+  },
+  "create_news_page": {
+    "header": "News creating",
+    "title": "Title",
+    "text": "Text",
+    "create_news_button": "Create news",
+    "goBack_button": "Go back",
+    "title_input_message": "Enter news title",
+    "text_input_message": "Enter news text"
+  },
+  "delete_modal": {
+    "header": "Confirm action",
+    "content": "Do you really want to delete all information about the meetup",
+    "close_button": "Close",
+    "delete_button": "Delete"
+  },
+  "error_modal": {
+    "header": "Error",
+    "close_button": "Close",
+    "file_error_content": {
+      "mistake": "You have selected unsupported type of file.",
+      "advice": "You can select files with the extension jpg, png and jpeg."
+    },
+    "size_error_content": {
+      "mistake": "You have selected too large image.",
+      "advice": "The allowed image size is up to 2MB."
+    }
+  },
+  "form_messages": {
+    "success": "Success"
+  },
+  "drop_image_content": {
+    "drop_advice": "Drop the image inside the block",
+    "drag_download_advice": {
+      "drag": "Drag images here",
+      "download": "or download it"
+    },
+    "type_advice": "Allowed formats: .jpg .jpeg .png",
+    "size_advice": "Maximum image size: 10 Mb",
+    "delete_image_button": "Delete"
+  },
+  "error_page": {
+    "forbidden_header": "You do not have access to this page",
+    "notFound_header": "Page not found",
+    "go_main_button": "To meetup page"
+  }
+}

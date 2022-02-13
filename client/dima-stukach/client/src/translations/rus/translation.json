@@ -1,0 +1,155 @@
+{
+  "login_form": {
+    "header": "Введите пользовательские данные",
+    "login_label": "Логин",
+    "password_label": "Пароль",
+    "submit": "Авторизоваться",
+    "log_input_message": "Введите логин",
+    "pass_input_message": "Введите пароль",
+    "log_input_error_message": "Необходимо ввести логин",
+    "pass_input_error_message": "Необходимо ввести пароль"
+  },
+  "nav_bar": {
+    "meetup_link": "Митапы",
+    "news_link": "Новости",
+    "signIn_button": "Войти",
+    "logOut_button": "Выйти",
+    "current_language_button": "Русский",
+    "change_language_button": "English translation"
+  },
+  "meetups_page": {
+    "header": "Митапы",
+    "request_tab": "Темы",
+    "draft_tab": "На модерации",
+    "confirmed_tab": "Будущие",
+    "past_tab": "Прошедшие",
+    "create_meetup_button": "+ Создать митап",
+    "goCount_button": "Одобрили"
+  },
+  "choosen_meetup_page": {
+    "theme_header": "Просмотр темы",
+    "meetup_header": "Просмотр митапа",
+    "subject": "Название",
+    "excerpt": "Описание",
+    "author": "Автор",
+    "time_place": "Время и место проведения",
+    "speakers": "Спикер",
+    "goCount": "Поддерживают",
+    "delete_participant_button": "Отказаться от темы",
+    "add_participant_button": "Одобрить тему",
+    "publication_button": "Опубликовать",
+    "delete_meetup_participant_button": "Не участвовать",
+    "add_meetup_participant_button": "Участвовать",
+    "delete_button": "Удалить",
+    "goBack_button": "Назад"
+  },
+  "edit_meetup_page": {
+    "header": "Редактирование митапа",
+    "image": "Фото",
+    "subject": "Тема",
+    "excerpt": "Описание",
+    "speakers": "Спикер",
+    "place": "Место проведения",
+    "start_date": "Начало",
+    "finish_date": "Окончание",
+    "edit_meetup_button": "Сохранить",
+    "goBack_button": "Назад",
+    "subject_input_error_message": "Введите название митапа",
+    "excerpt_input_error_message": "Введите описание митапа",
+    "author_input_error_message": {
+      "two_words_mistake": "Необходимо ввести минимум два слова",
+      "required": "Введите данные о спикере"
+    },
+    "date_input_error_message": {
+      "start": "Будущий митап не может начаться или закончиться в прошлом",
+      "finish": "Планировать митапы можно только на год вперед",
+      "format": "Неверный формат даты"
+    }
+  },
+  "create_meetup_page": {
+    "header": "Новый митап",
+    "help_content": "Заполните необходимые поля ниже наиболее подробно, это даст полную информацию о предстоящем событии.",
+    "main_tab": "Обязательные поля",
+    "extra_tab": "Дополнительные поля",
+    "subject": "Название",
+    "excerpt": "Описание",
+    "speakers": "Спикер",
+    "place": "Место проведения",
+    "start_date": "Начало",
+    "finish_date": "Окончание",
+    "create_meetup_button": "Создать",
+    "goBack_button": "Назад",
+    "goNext_button": "Далее",
+    "subject_input_start_message": "Введите название митапа",
+    "excerpt_input_start_message": "Введите описание митапа",
+    "author_input_start_message": "Введите данные по спикеру",
+    "place_input_start_message": "Введите информацию о месте проведения",
+    "start_date_input_start_message": "Введите дату начала митапа",
+    "finish_date_input_start_message": "Введите дату окончания митапа"
+  },
+  "news_page": {
+    "header": "Новости",
+    "create_news_button": "+ Создать новость"
+  },
+  "choosen_news_page": {
+    "header": "Просмотр новости",
+    "delete_news_button": "Удалить",
+    "edit_news_button": "Редактировать",
+    "goBack_button": "Назад"
+  },
+  "edit_news_page": {
+    "header": "Редактирование новости",
+    "image": "Фото",
+    "title": "Заголовок",
+    "text": "Текст",
+    "edit_news_button": "Сохранить",
+    "goBack_button": "Назад",
+    "title_input_error_message": "Введите заголовок новости",
+    "text_input_error_message": "Введите текст новости"
+  },
+  "create_news_page": {
+    "header": "Создание новости",
+    "title": "Заголовок",
+    "text": "Текст",
+    "create_news_button": "Создать",
+    "goBack_button": "Назад",
+    "title_input_message": "Введите заголовок новости",
+    "text_input_message": "Введите текст новости"
+  },
+  "delete_modal": {
+    "header": "Подтверждение действия",
+    "content": "Вы действительно хотите удалить всю информацию о митапе",
+    "close_button": "Закрыть",
+    "delete_button": "Удалить"
+  },
+  "error_modal": {
+    "header": "Ошибка",
+    "close_button": "Закрыть",
+    "file_error_content": {
+      "mistake": "Вы выбрали файл не того типа.",
+      "advice": "Можно выбирать файлы с расширением jpg, png и jpeg."
+    },
+    "size_error_content": {
+      "mistake": "Вы выбрали слишком большой файл.",
+      "advice": "Допустимый размер картинки до 2MB."
+    }
+  },
+  "form_messages": {
+    "success": "Принято"
+  },
+  "drop_image_content": {
+    "drop_advice": "Отпустите изображение внутри поля...",
+    "drag_download_advice": {
+      "drag": "Перетащите изображения сюда",
+      "download": "или загрузите"
+    },
+    "type_advice": "Разрешенные форматы: .jpg .jpeg .png",
+    "size_advice": "Максимальный размер файла: 10 Mb",
+    "delete_image_button": "Удалить"
+  },
+  "error_page": {
+    "forbidden_header": "У вас нет доступа к данной странице",
+    "notFound_header": "Страница не найдена",
+    "go_main_button": "К списку митапов"
+  }
+}

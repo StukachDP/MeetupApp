@@ -1,0 +1,41 @@
+.MainApp {
+  text-align: center;
+}
+
+.BackgroundIMG {
+  height: 40%;
+  width: 30%;
+  position: absolute;
+  left: 70%;
+  right: 0%;
+  top: 60%;
+  bottom: 0;
+  mix-blend-mode: multiply;
+}
+
+.Logo {
+  height: 20%;
+  width: 20%;
+  border: 2px solid white;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
